@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:title="Todos"/>
+    </group>
+
+    <item android:title="@string/filter_label">
+        <menu>
+            <item
+                android:id="@+id/nav_el_salvador"
+                android:title="@string/el_salvador"/>
+
+
+            <item
+                android:id="@+id/nav_guatemala"
+                android:title="@string/guatemala"/>
+            <item
+                android:id="@+id/nav_honduras"
+                android:title="@string/honduras"/>
+            <item
+                android:id="@+id/nav_costa_rica"
+                android:title="@string/costa_rica"/>
+        </menu>
+    </item>
+</menu>
